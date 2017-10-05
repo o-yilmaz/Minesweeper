@@ -16,16 +16,13 @@ namespace Mines
         {
             InitializeComponent();
         }
-
-        //Global değişkenler
+        
         Button btn;
         int[] arrayMines;   //mayınların numaralarını tutan array
         int countX = 0;     //yatay buton sayısı
         int countY = 0;     //dikey buton sayısı
         int mineCount = 0;  //toplam mayın sayısı
         int timer = 0;      //timer
-
-        //Not: images isimli imagelistte 0. mayın, 1-8 arası etrafındaki mayın sayısını temsil eden numaralar, 9. bayrak.
 
 
         /// <summary>
